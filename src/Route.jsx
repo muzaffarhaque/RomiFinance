@@ -4,16 +4,16 @@ import {Dashboard, ErrorPage, Home, Layout} from "./pages";
 export default function Route() {
   const router = createBrowserRouter([
     {
-        path: "/",
+        path: "/RomiFinance/",
         element: <Layout />,
         errorElement:<ErrorPage/>,
         children: [
           {
-            path: "/",
+            path: "/RomiFinance/",
             element: <Home />,
           },
           {
-            path: "/dashboard",
+            path: "/RomiFinance/dashboard",
             element: <Dashboard />,
           },
         ],

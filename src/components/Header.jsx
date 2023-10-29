@@ -25,10 +25,10 @@ export default function () {
         
             <ul className="nave-list mb-0">
               <li>
-                <Link to={`/`}>Home</Link>
+                <Link to={`/RomiFinance/`}>Home</Link>
               </li>
               <li>
-                <Link to={`/dashboard`}>Dashboard</Link>
+                <Link to={`/RomiFinance/dashboard`}>Dashboard</Link>
               </li>
               <li>
                 <a href="#">NFT</a>
